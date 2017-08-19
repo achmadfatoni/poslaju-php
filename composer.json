@@ -1,0 +1,24 @@
+{
+    "name": "achmadfatoni/poslajuphp",
+    "description": "Package for tracking poslaju package",
+    "keywords": ["poslaju", "tracking", "parcel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Achmad Fatoni",
+            "email": "hi@achmadfatoni.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+	"require-dev": {
+        "phpunit/phpunit": "^4.0 || ^5.0"
+    },
+	"autoload": {
+        "psr-4": {
+            "Achmadfatoni\\Poslaju\\": "src/"
+        }
+    }
+}
