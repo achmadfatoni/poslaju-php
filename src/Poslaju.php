@@ -59,7 +59,7 @@ class Poslaju
                 # store into associative array
                 $datetime = explode(',', $datetime);
                 $trackResult['data'][$i]['date'] = $datetime[0];
-                $trackResult['data'][$i]['time'] = $datetime[1];
+                $trackResult['data'][$i]['time'] = trim($datetime[1]);
                 $trackResult['data'][$i]['process'] = $process;
                 $trackResult['data'][$i]['event'] = $event;
             }
